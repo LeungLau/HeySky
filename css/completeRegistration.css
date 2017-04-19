@@ -1,0 +1,101 @@
+body {
+	height:100%;
+	width: 100%
+}
+.container {
+	width: 1000px;
+	height:600px;
+	margin: 0 auto;
+	margin-top: 110px;
+}
+/*完成注册*/
+.container .complete {
+	width: 980px;
+	height: 50px;
+}
+.container .complete .registration_message {
+	background: url(../images/left2-pic.png);
+	width: 478px;
+	height: 52px;
+    display: inline-block;
+}
+.container .complete .complete_registration {
+	background: url(../images/right2-pic.png);
+	width: 478px;
+	height: 52px;
+    display: inline-block;
+}
+.complete .registration_message .one {
+	width: 37px;
+	height: 35px;
+	background-color: #dedede;
+	border-radius: 17px;
+	display: inline-block;
+	margin-left: 153px;
+	margin-top: 8px;
+	color: #fff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 26px;
+}
+.complete .registration_message .step1 {
+	color: #666666;
+	display: inline-block;
+	font-size: 21px;
+    margin-left: 12px;
+}
+.complete .complete_registration .two {
+	width: 37px;
+	height: 35px;
+	background-color: #00a1f2;
+	border-radius: 17px;
+	display: inline-block;
+	margin-left: 153px;
+	margin-top: 8px;
+	color: #fff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 26px;
+}
+.complete .complete_registration .step2 {
+	color: #fff;
+	display: inline-block;
+	font-size: 21px;
+    margin-left: 12px;
+}
+.complete .registration_success {
+	width: 570px;
+	height: 95px;
+	margin-top: 100px;
+	margin-left: 236px;
+}
+.complete .registration_success img {
+	float: left;
+}
+.complete .registration_success .step3 {
+	display: inline-block;
+	color: #0188cc;
+	margin-top: 16px;
+    margin-left: 10px;
+}
+.complete .registration_success .step4 {
+	color:#999999;
+	margin-top: 9px;
+	margin-left: 73px;
+}
+.complete .eh {
+	color: #fff;
+	width: 140px;
+	height: 36px;
+	background-color: #0188cc;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 51px;
+    margin-left: 310px;
+    cursor: pointer;
+}
+.complete .eh  a {
+ 	color: #fff;
+ 	text-decoration: none;
+}
+}

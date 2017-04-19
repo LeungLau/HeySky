@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HEYSKY专业国际短信</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css">
+    <link href="css/home.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/echarts.common.min.js"></script>
+</head>
+<body>
+<header>
+    <div class="head">
+        <div class="user-infor">
+            <div class="login">
+                <img src="images/home/photo.png" class="photo">
+                <div class="member">普通会员</div>
+                <div class="id">us1103599025</div>
+            </div>
+            <div class="change">
+                <div class="photo1"><img src="images/home/message.png" class="message">
+
+                    <!--余额提示窗口-->
+                    <div class="remainder">
+                        <div class="triangle-up"></div>
+                        <div class="re-box">
+                            <p>余额&nbsp<span>152.2</span>元</p>
+                            <a href="#"><span class="recharge">立即充值</span></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <a href="">
+                    <div class="photo2"><img src="images/home/quit.png" class="quit"></div>
+                </a>
+            </div>
+        </div>
+        <img src="images/common/top_pic.png" class="h-logo">
+
+
+    </div>
+</header>
+
+
+<div class="container">
+
+    <!--边栏-->
+    <div class="aside">
+        <div class="home active">首页</div>
+        <div class="wuxian">无线营销</div>
+        <a href="#">
+            <div class="click">创建营销</div>
+        </a>
+        <a href="#">
+            <div class="click">营销管理</div>
+        </a>
+
+        <div class="zhineng">智能提醒</div>
+        <a href="#">
+            <div class="click">提醒设置</div>
+        </a>
+        <a href="#">
+            <div class="click">发送记录</div>
+        </a>
+
+        <div class="kehu">客户管理</div>
+        <a href="#">
+            <div class="click">名录倒入</div>
+        </a>
+        <a href="#">
+            <div class="click">名录维护</div>
+        </a>
+
+        <div class="data">数据报告</div>
+        <a href="#">
+            <div class="click">效果分析</div>
+        </a>
+        <a href="#">
+            <div class="click">客户分析</div>
+        </a>
+
+        <div class="setting">系统设置</div>
+        <a href="#">
+            <div class="click">账户充值</div>
+        </a>
+        <a href="#">
+            <div class="click">日报设置</div>
+        </a>
+        <a href="#">
+            <div class="click">速卖通绑定</div>
+        </a>
+        <div class="wang">
+            <p>产品报价｜常见问题</p>
+            <p>速卖通旺旺交流群:&nbsp<a href="#">88888888888</a></p>
+        </div>
+
+
+    </div>
+
+    <!--主内容区-->
+    <div class="main">
+        <div class="wrap af4">
+            <ul class="slidebox">
+                <li class="slide1">Slide1</li>
+                <li class="slide2">Slide2</li>
+                <li class="slide3">Slide3</li>
+                <!--<div class="circle">
+                    <a href="#"><div class="crl1"></div></a>
+                    <a href="#"><div class="crl2"></div></a>
+                    <a href="#"><div class="crl3"></div></a>
+                </div>-->
+                <div class='dot'><p></p></div>
+            </ul>
+        </div>
+        <div class="sms">
+            <div class="sms-title"><p>短信快捷发送</p></div>
+            <form class="form">
+                <select value="选择国家">
+                    <option value="">请选择国家</option>
+                    <option value="china">中国</option>
+                    <option value="america">美国</option>
+                    <option value="japan">日本</option>
+                </select>
+                <input type="text" placeholder="请输入手机" class="phone">
+                <textarea></textarea>
+                <div class="btn-message" >发送短信</div>
+            </form>
+        </div>
+        <div class="notice close1"><p>迎双11大促，马上参与1元秒杀活动</p>
+            <img src="images/home/close.png" class="act1">
+        </div>
+        <div class="notice close2"><p>您的未付款订单较多，建议开通催付提醒哦</p>
+            <img src="images/home/close.png" class="act2">
+        </div>
+
+        <!--图表-->
+        <div class="graph">
+            <div class="select-account">
+                <select>
+                    <option>切换账号</option>
+                    <option>账号1</option>
+                    <option>账号2</option>
+                </select>
+            </div>
+            <div class="count">
+                <div class="count-title"><p>2015年10月15日战报</p></div>
+                <div class="count-pic">
+                    <div class="order">
+                        <div class="order-pic"></div>
+                        <p>新增订单</p>
+                        <p class="number">193<span>笔</span></p>
+                    </div>
+                    <div class="guest">
+                        <div class="guest-pic"></div>
+                        <p>新增客户</p>
+                        <p class="number">13<span>人</span></p>
+                    </div>
+                    <div class="send-message">
+                        <div class="message-pic"></div>
+                        <p>短信发送</p>
+                        <p class="number">168<span>条</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="daily-data">
+                <div class="count-title"><p>客户增量日曲线图</p></div>
+                <div id="canvas"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="right-side">
+    <div class="side-box"><a href="#"> <img src="images/home/zaixian.png">
+        <p>在线咨询</p></a></div>
+    <div class="side-box2"><a href="#"><img src="images/home/kefu.png">
+        <p>QQ客服</p></a></div>
+    <div class="side-box"><a href="#"><img src="images/home/yonghu.png">
+        <p>用户反馈</p></a></div>
+
+</div>
+
+    <div class="improvement">
+        <form class="impro-form">
+            <div class="impro-title">资料完善</div>
+            <p>为了提高客户体验，请完善您的资料</p>
+            <span>*</span>公司名称:<input type="text" placeholder="请输入公司名称"></br>
+            <span>*</span>手机号码:<input type="text" placeholder="请输入手机号码"><button>免费获取验证码</button></br>
+            <span class="yzm">*</span>验证码:<input type="text" placeholder="请输入验证码"></br>
+            <span>*</span>密码设置:<input type="text" placeholder="请输入密码"></br>
+            <span>*</span>确认密码:<input type="text" placeholder="请确认密码"></br>
+            <input type="checkbox"><span class="checkbox">开启所有短信提醒功能</span> </br>
+            <input type="submit" value="保存" onclick="window.location.reload();return false;">
+        </form>
+    </div>
+
+
+<footer>
+    产品报价 | 常见问题 | 隐私条款 | 联系我们 <br>
+    2017©XXXX网络技术有限公司（客服电话：05XX－XXXXXXX）
+</footer>
+</body>
+
+<!--点击消失-->
+<script>
+
+    $(document).ready(function(){
+        $('.notice img').each(function () {
+            $(this).click(function(){
+                $(this).parent().hide();
+                $('.aside').height($('.aside').height()-30);
+                $('.main').height($('.main').height()-30);
+            });
+        });
+    });
+
+</script>
+
+<!--弹出层-->
+<script>
+    $('.btn-message').click(function(){
+        $('.improvement').css('display','block');
+    });
+
+</script>
+
+
+<script>
+
+
+    var pDiv = document.getElementsByClassName("photo1")[0];
+    var reDiv = document.getElementsByClassName("remainder")[0];
+    var p1Div = document.getElementsByClassName("photo1")[0];
+    pDiv.onmouseover = function () {
+        reDiv.style.display = "block";
+        p1Div.style.backgroundColor = "#333333";
+    };
+    pDiv.onmouseout = function () {
+        reDiv.style.display = "none";
+        p1Div.style.backgroundColor = "";
+    };
+
+    $(document).ready(function () {
+        //affect:4
+        $(".af4").slide({
+            affect: 4,
+            time: 3000,
+            speed: 400,
+        });
+    })
+</script>
+<!--eChart 引入-->
+<script src="js/echarts.js"></script>
+</html>

@@ -1,0 +1,41 @@
+.main{
+   padding: 0;
+}
+h1{
+    box-sizing: border-box;
+    height: 48px;
+    width: 100%;
+    font-size: 15px;
+    color:#4C4C4C;
+    border-bottom: 1px solid #dedede;
+    line-height: 48px;
+    padding-left: 20px;
+}
+.project-name{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4C4C4C;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    display: flex;
+}
+.icon_name{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.input-name{
+    width: 220px;
+    height: 30px;
+    color: black;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.icon{
+    margin-left:10px;
+}
+.edit{
+    color: #0188CC;
+    cursor:pointer;
+}

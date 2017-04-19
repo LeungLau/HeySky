@@ -1,0 +1,392 @@
+
+
+/*主内容区开始*/
+
+.wrap{
+    float: left;
+    position: relative;
+    width: 658px;
+    height: 240px;
+    background-color: #343434;
+    overflow: hidden;
+}
+
+.slidebox{
+    list-style: none;
+    width: 2637px;
+    height: 240px;
+}
+.slide1{
+    float: left;
+    width: 658px;
+    height: 240px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 240px;
+    background-color: #F1891C;
+}
+.slide2{
+    float: left;
+    width: 658px;
+    height: 240px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 240px;
+    background-color: #FFFC00;
+}
+.slide3{
+     float: left;
+     width: 658px;
+     height: 240px;
+     text-align: center;
+     font-size: 20px;
+     line-height: 240px;
+    background-color: red;
+ }
+.slide4 {
+    float: left;
+    width: 658px;
+    height: 240px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 240px;
+    background-color: #F1891C;
+}
+
+/*圆点*/
+.circle{
+    position: absolute;
+    width: 60px;
+    height: 20px;;
+    bottom: 0;
+    right: 5px;
+    z-index: 999;
+    /*background-color: #343434;*/
+
+}
+.circle div{
+   float: left;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-right: 10px;
+    background-color: #BEBEBE;
+}
+div .crl2{
+    background-color: #ffffff;
+}
+/*圆点结束*/
+
+/*短信快捷发送*/
+
+.sms{
+    width: 280px;
+    height: 240px;
+    margin-left: 678px;
+    border:1px solid #DEDEDE;
+}
+.sms-title{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom:1px solid #DEDEDE;
+    line-height: 30px;
+    background-color: #FAFAFA;
+}
+.sms-title p{
+    padding-left: 10px;
+    color: #4C4C4C;
+}
+
+.form {
+    margin-top: 25px;
+    text-align: center;
+}
+.sms select {
+    width: 105px;
+    height: 30px;
+    color: #B2B2B2;
+}
+input.phone {
+    width: 130px;
+    height: 27px;
+    border: 1px solid #DEDEDE;
+    border-radius: 2px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.sms textarea {
+    width: 257px;
+    height: 90px;
+    margin-top: 15px;
+    resize:none;
+    border: 1px solid #DEDEDE;
+}
+div.btn-message {
+    width: 97px;
+    height: 30px;
+    background-color: #0188CC;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 3px auto;
+}
+div.btn-message:hover{
+    cursor: pointer;
+}
+
+.notice {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    background-color: #FFD9B2;
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.notice img {
+    position: absolute;
+    right: 25px;
+    top: 3px;
+}
+.notice p{
+    padding-left: 10px;
+}
+.notice img:hover{
+    cursor: pointer;
+}
+
+/*图表区*/
+
+.graph{
+    /*background-color: #0188CC;*/
+    width: 960px;
+    height: 777px;
+    text-align: center;
+    border:1px solid #DEDEDE;
+    margin-top: 30px;
+}
+
+.select-account{
+    width: 100%;
+    height: 60px;
+}
+.select-account select{
+    float: right;
+    margin-right: 15px;
+    margin-top: 20px;
+    width: 168px;
+    height: 29px;
+    color:#B2B2B2 ;
+}
+.count {
+    width: 937px;
+    margin: 0 auto;
+    border: 1px solid #DEDEDE;
+}
+.count-title {
+    text-align: left;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #DEDEDE;
+    height: 30px;
+    line-height: 30px;
+}
+.count-title p {
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.count-pic {
+    width: 936px;
+    height: 157px;
+}
+.order {
+    float: left;
+    margin-top: 20px;
+    margin-left: 13px;
+    width: 290px;
+    height: 100px;
+    background-color: #5D9CEC;
+}
+.count-pic p {
+    color: #ffffff;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+p.number {
+    font-size: 30px;
+    margin-top: -10px;
+}
+p.number span{
+    font-size: 16px;
+}
+.guest {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 290px;
+    height: 100px;
+    background-color: #7266BA;
+}
+.send-message {
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 290px;
+    height: 100px;
+    background-color: #55BC9B;
+}
+.order-pic{
+    float: right;
+    width: 90px;
+    height: 100%;
+    background: url("../images/home/order_pic.png") #2F80E7 center center;
+}
+.guest-pic{
+    float: right;
+    width: 90px;
+    height: 100%;
+    background: url("../images/home/guest_pic.png") #564AA3 center center;
+}
+.message-pic{
+    float: right;
+    width: 90px;
+    height: 100%;
+    background: url("../images/home/message_pic.png") #2B957A center center;
+}
+
+
+
+
+.dot {
+    position:absolute;
+    width:100%;
+    height:30px;
+    /*background:rgba(0,0,0,0.3);*/
+    text-align:right;
+    bottom:0;left:0;
+}
+.dot p {
+    margin-right:15px;
+}
+.dot b {
+    width:8px;height:8px;
+    border-radius:4px;
+    color:#333;
+    display:inline-block;
+    background:#BEBEBE;
+    text-align:center;
+    line-height:8px;
+    margin-left:8px;
+    margin-top:6px;
+    cursor:pointer;
+    font-weight:normal;
+}
+.dot .cur {
+    background:#fff;
+    color:#fff;
+}
+
+/*客户增量日曲线图*/
+.daily-data{
+    width: 937px;
+    height: 470px;
+    border: 1px solid #DEDEDE;
+    margin:20px auto;
+}
+#canvas{
+    width: 935px;
+    height: 450px;
+    /*background-color: #2B957A;*/
+    /*margin: 7px auto;*/
+}
+
+
+
+
+/*完善资料弹出层*/
+.improvement {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.impro-form {
+    width: 520px;
+    height: 430px;
+    margin: 100px auto;
+    background: url(../images/createMarketing/modal_bg.png) repeat;
+}
+.impro-title {
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 20px;
+    background-color: #E9E9E9;
+}
+.impro-form p {
+    color: red;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.impro-form span {
+    margin-left: 70px;
+    color: red;
+    padding-top: 20px;
+}
+.impro-form input[type="text"] {
+    width: 180px;
+    height: 28px;
+    border: 1px solid #dedede;
+    margin-top: 15px;
+    margin-left: 15px;
+    padding-left: 5px;
+}
+.impro-form button {
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color: #F1881A;
+    border: none;
+    margin-left: 15px;
+}
+span.yzm {
+    padding-left: 16px;
+}
+.impro-form input[type="checkbox"] {
+    margin-left: 79px;
+    margin-top: 15px;
+}
+span.checkbox {
+    color: #000;
+    font-size: 13px;
+    margin-left: 5px;
+}
+.impro-form input[type="submit"] {
+    width: 60px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 215px;
+    background-color: #0188CC;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 30px;
+    border: none;
+}
+
+
+
+.home{
+    background:#0188CC url("../images/common/home_pic.png") no-repeat 20px -2px ;
+}

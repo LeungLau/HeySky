@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background: url("../images/common/top_bg.png") repeat;
+    width: 100%;
+}
+.head{
+    position: relative;
+    height: 66px;
+    width: 1200px;
+    margin: auto;
+}
+.h_s{
+    position: absolute;
+    margin: auto;
+    right: 0;
+    top: 22px;
+    width: 303px;
+}
+.h-span{
+
+    padding: 3px 6px;
+    background-color: #0188CC;
+    margin-left: 15px;
+}
+.h-span a{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+}
+.banner{
+    width:100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.banner img{
+    float: left;
+}
+.div1{
+    position: absolute;
+    height: 500px;
+    width: 11520px;
+    left: -220px;
+}
+.p1{
+    background:url("../images/index/stepOne.png") no-repeat center center;
+    width:100%;
+    height: 761px;
+}
+.p2{
+    background:url("../images/index/stepTwo.png") no-repeat center center;
+    width:100%;
+    height: 760px;
+}
+.p3{
+    background:url("../images/index/stepThree.png") no-repeat center center;
+    width:100%;
+    height: 760px;
+}
+.p4{
+    background:url("../images/index/stepFour.png") no-repeat center center;
+    width:100%;
+    height: 760px;
+}
+.bg-2{
+    background-color: #FAFAFA;
+}
+.bg-4{
+    background-color: #FAFAFA;
+}
+.cuifu img{
+    display: inline;
+    float: left;
+    width: 49px;
+    height: 55px;
+}
+.cuifu h1{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 9px;
+    ;
+
+}
+.cuifu p{
+    font-size: 10px;
+    color: #888A88;
+}
+.cuifu{
+    height: 70px;
+    width: 300px;
+    vertical-align: bottom;
+}
+.p5{
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+}
+.main{
+    position: relative;
+    vertical-align: middle;
+
+}
+.login-box{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 290px;
+    height: 320px;
+    margin:auto;
+    top: 90px;
+    left: 1000px;
+    border-radius: 15px;
+    z-index: 999;
+}
+.container{
+    padding: 20px 25px;
+    margin: auto;
+    color: #ffffff;
+    font-size: 15px;
+}
+.box-title{
+    border-bottom: 1px solid white;
+    padding-bottom: 7px;
+}
+.username{
+    width: 205px;
+    height: 28px;
+    margin-top: 25px;
+    line-height: 10px;
+    font-size: 10px;
+    background: #ffffff url("../images/index/user.png") no-repeat 5px 0;
+    padding-left:33px ;
+    border: 1px solid #C3C3C3;
+    outline: none;
+}
+.pwd{
+    width: 205px;
+    height: 28px;
+    margin-top: 25px;
+    line-height: 10px;
+    font-size: 10px;
+    background: #ffffff url("../images/index/password.png") no-repeat 5px 0;
+    padding-left:33px ;
+    border: 1px solid #C3C3C3;
+    outline: none;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.checkbox span{
+    padding-left: 3px;
+}
+.fpwd{
+    float: right;
+    color: #FFFC00;
+    text-decoration: none;
+}
+.bt1{
+    width: 240px;
+    height: 35px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #F1891C;
+    font-size: 15px;
+    line-height: 15px;
+    border: none;
+    outline: none;
+}
+.bt1:hover{
+    cursor: pointer;
+}
+.register{
+    margin-top: 10px;
+}
+.register a{
+    color: #FFFC00;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.smt{
+    margin-top: 10px;
+}
+.smt{
+    background: #F1891C url("../images/index/cart.png") no-repeat left;
+    height: 22px;
+    width: 95px;
+    line-height: 10px;
+    font-size: 10px;
+    padding-left:25px;
+    color: #fff;
+    vertical-align: middle;
+}
+.smt-a{
+    text-decoration: none;
+}
+.smt p{
+    padding-top: 6px
+}
+.word{
+    float: right;
+    font-size: 13px;
+    margin-top: -21px;
+    margin-right: 4px;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}

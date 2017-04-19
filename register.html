@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	    <meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+	    <title>注册</title>
+	    <link rel="stylesheet" href="./css/reset.css" />
+	    <link rel="stylesheet" href="./css/register.css" />
+	    <script src="./js/jquery-2.1.4.min.js"></script>
+	    <script src="./js/register.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<!-- 注册步骤 -->
+			<div class="registration_steps">
+				<div class="registration_message"><div class="one">1</div><div class="step1">填写注册信息</div></div>
+				<div class="complete_registration"><div class="two">2</div><div class="step2">完成注册</div></div>
+			</div>
+			<!-- 填写信息 -->
+			<div class="input_info">
+				<div class="enter1">
+					<div class="nm1"><span class="asterisk1">*</span><span class="name1">公司名称：</span></div>
+					<div class="nm2"><input type="text" name="company" class="company"></div>
+				</div>
+				<div class="enter2">
+					<div class="nm3"><span class="asterisk2">*</span><span class="name2">手机号码：</span></div>
+					<div class="nm4"><input type="text" name="number" class="number" id="number" size="11" maxlength="11" onkeyup='this.value=this.value.replace(/\D/gi,"")'></div>
+					<div class="icon1"><img src="./images/wrong.png"><span>请输入真确的11位手机号码</span></div>
+				</div>
+				<div class="enter3">
+					<div class="nm5"><span class="asterisk3">*</span><span class="name3">短信验证：</span></div>
+					<div class="nm6"><input type="text" name="code" class="code"></div>
+					<div class="obtain">（60）重新获取</div>
+					<div class="icon2"><img src="./images/correct.png"><span></span></div>
+				</div>
+				
+				<div class="enter4">
+					<div class="nm7"><span class="asterisk4">*</span><span class="name4">创建密码：</span></div>
+					<div class="nm8"><input type="text" name="create" class="create"></div>
+					<div class="icon3"><img src="./images/wrong.png"><span>密码太短，至少要6个字符</span></div>
+				</div>
+				<div class="enter5">
+					<div class="nm9"><span class="asterisk5">*</span><span class="name5">确认密码：</span></div>
+					<div class="nm10"><input type="text" name="confirm" class="confirm"></div>
+					<div class="icon4"><img src="./images/wrong.png"><span>两次的密码不一致，请重新输入</span></div>
+				</div>
+				<div class="yzm">
+					<div class="nm11"><span class="asterisk6">*</span><span class="name6">验证码：</span></div>
+					<div class="code1"><input type="text" name="code2" class="code2"></div>
+					<div class="icon7"><img src="./images/yanzhengma.png"><a href="#">换一张</a></div>
+				</div>	
+				<div class="enter6">
+					<input name="icon5" type="checkbox" value=""><span>我已阅读并接受</span><a href="#">《海客信使服务协议》</a>
+				</div>
+				<div class="enter7"><a href="./completeRegistration.html">确认提交</a></div>
+			</div>
+			<!-- 分隔线 -->
+			<div class="divider"></div>
+			<!-- 已有帐号 -->
+			<div class="already">
+				<div class="title"><div class="icon6"></div><span>已有帐号</span></div>
+				<hr/>
+				<div class="ard1"><a href="./index.html">已有帐号登录</a></div>
+				<div class="ard2"><a href="./index.html">速卖通账号登录</a></div>
+			</div>
+		</div>
+	</body>
+		
+</html>

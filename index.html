@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>引导页</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+        <header>
+            <div class="head">
+                    <img src="images/common/top_pic.png" class="h-logo">
+                    <div class="h_s">
+                        <span class="h-span"><a href="#">速卖通账号登录</a></span>
+                        <span class="h-span"><a href="#">海客信使通用版</a></span>
+                    </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="banner">
+                <div class="div1">
+                    <img class="img" src="images/index/banner1.png">
+                    <img class="img" src="images/index/banner2.png">
+                    <img class="img" src="images/index/banner3.png">
+                    <img class="img" src="images/index/banner1.png">
+                </div>
+                <form class="login-box">
+                    <div class="container">
+                        <div class="box-title">客户系统登录</div>
+                        <input type="text" placeholder="用户名" class="username">
+                        <input type="text" placeholder="密码" class="pwd">
+                        <div class="checkbox">
+                            <input type="checkbox" ><span>自动登录</span><span>
+                            <a href="findPassword.html" class="fpwd">找回密码</a></span>
+                        </div>
+                        <input type="submit" value="登录" class="bt1">
+                        <div class="register">还没有账户?&nbsp<a href="register.html">立即注册</a> </div>
+                        <div>
+                            <a href="#" class="smt-a"><div class="smt"><p>速卖通账号登录</p></div></a>
+                            <div class="word">只需一步,快速开始</div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+            <div class="p1"></div>
+            <div class="bg-2"><div class="p2"></div></div>
+            <div class="bg-3"><div class="p3"></div></div>
+            <div class="bg-4"><div class="p4"></div></div>
+            <table class="p5">
+                <tr>
+                    <td class="cuifu"><img src="images/index/cuifu.png"><h1>催付提醒</h1><p>自动发短信给拍下订单但尚未付款的买家</p></td>
+                    <td class="cuifu"><img src="images/index/fukuan.png"><h1>付款关怀</h1><p>买家付款后发短信给买家，提示即将发货</p></td>
+                    <td class="cuifu"><img src="images/index/chifa.png"><h1>迟发提醒</h1><p>发货时间超过发货时限，对买家进行短信安抚</p></td>
+                </tr>
+                <tr>
+                    <td class="cuifu"><img src="images/index/fahuo.png" ><h1>发货关怀</h1><p>自动发短信通知买家宝贝已发出</p></td>
+                    <td class="cuifu"><img src="images/index/qianshou.png"><h1>签收关怀</h1><p>自动发短信通知买家宝贝已被签收</p></td>
+                    <td class="cuifu"><img src="images/index/tuikuan.png"><h1>退款关怀</h1><p>买家申请退款成功后，自动发送短信给买家</p></td>
+                </tr>
+            </table>
+        <footer>
+            2017©XXXX网络技术有限公司（客服电话：05XX－XXXXXXX）
+        </footer>
+</body>
+
+
+<script>
+    window.onload=function() {
+        var oDiv = document.getElementsByClassName("div1");
+        var oPic = document.getElementsByClassName("img");
+        var S = oPic[0].offsetWidth;                                                 // 单张图片宽度
+        var il = oDiv[0].offsetLeft;                                                 // 第一张图片初始left
+        console.log(S, il);
+        function banner() {
+            setInterval(function timer() {
+                setTimeout(function () {                                             // 计时器开始
+                    oDiv[0].style.left = oDiv[0].offsetLeft - S + "px";              // 图片向左移动一个图形宽度的距离
+                    oDiv[0].style.transition = "left 300ms";                         // 设定动作完成时间300ms
+                }, 1000);                                                            // 延迟1s开始
+                if (oDiv[0].offsetLeft <= il - (oPic.length - 1) * S) {              // 当播到第四张图片,重新切回第一张。
+                    oDiv[0].style.transition = null;
+                    oDiv[0].style.left = il + "px";
+                }
+            }, 3000);
+        }
+        banner();
+    }
+</script>
+</html>

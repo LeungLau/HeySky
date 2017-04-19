@@ -1,0 +1,254 @@
+body {
+	height:100%;
+	width: 100%
+}
+.container {
+	width: 1000px;
+	height:600px;
+	margin: 110px auto;
+}
+/*注册步骤*/
+.container .registration_steps {
+	width: 980px;
+	height: 50px;
+}
+.registration_steps .registration_message {
+	background: url(../images/left-pic.png);
+	width: 478px;
+	height: 52px;
+    display: inline-block;
+}
+.registration_steps .complete_registration {
+	background: url(../images/right-pic.png);
+	width: 478px;
+	height: 52px;
+    display: inline-block;
+}
+.registration_steps .registration_message .one {
+	width: 37px;
+	height: 35px;
+	background-color: #00a1f2;
+	border-radius: 17px;
+	display: inline-block;
+	margin-left: 153px;
+	margin-top: 8px;
+	color: #fff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 26px;
+}
+.registration_steps .registration_message .step1 {
+	color: #fff;
+	display: inline-block;
+	font-size: 21px;
+    margin-left: 12px;
+}
+.registration_steps .complete_registration .two {
+	width: 37px;
+	height: 35px;
+	background-color: #dedede;
+	border-radius: 17px;
+	display: inline-block;
+	margin-left: 153px;
+	margin-top: 8px;
+	color: #fff;
+	text-align: center;
+	line-height: 34px;
+	font-size: 26px;
+}
+.registration_steps .complete_registration .step2 {
+	color: #666666;
+	display: inline-block;
+	font-size: 21px;
+    margin-left: 12px;
+}
+/*填写注册信息*/
+.input_info {
+	width: 620px;
+	height: 470px;
+	float: left;
+}
+.input_info .asterisk6,
+.input_info .asterisk5,
+.input_info .asterisk4,
+.input_info .asterisk3,
+.input_info .asterisk2,
+.input_info .asterisk1 {
+	color: red;
+}
+.enter1 .nm1,
+.enter1 .nm2,
+.enter2 .nm3,
+.enter2 .nm4,
+.enter3 .nm5,
+.enter3 .nm6,
+.enter4 .nm7,
+.enter4 .nm8,
+.enter5 .nm9,
+.enter5 .nm10 {
+	color: #999999;
+	display: inline-block;
+}
+.yzm .nm11 {
+	color: #999999;
+	display: inline-block;
+	margin-left: 16px;
+	margin-top: 40px;
+}
+.enter1 .company,
+.enter2 .number,
+.enter4 .create,
+.enter5 .confirm {
+	width: 260px;
+	height: 30px;
+}
+.enter3 .code,
+.yzm .code2 {
+	width: 140px;
+	height: 30px;
+}
+.input_info .enter1 {
+	margin-top: 60px;
+}
+.input_info .enter2,
+.input_info .enter4,
+.input_info .enter5 {
+	margin-top: 40px;
+}
+.input_info .enter3 {
+	margin-top: 40px;
+	display: inline-block;
+}
+.input_info .obtain {
+	background-color:#ccc;
+	color: #fff;
+	width: 120px;
+	height: 30px;
+	font-size: 12px;
+	text-align: center;
+    line-height: 29px;
+    margin-left: 21px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+}
+.enter2 .icon1 {
+	color: red;
+	display: inline-block;
+	margin-left: 10px; 
+}
+.enter3 .icon2 {
+	display: inline-block;
+	margin-left: 10px;
+}
+.enter4 .icon3 {
+	color: red;
+	display: inline-block;
+	margin-left: 10px;
+}
+.enter5 .icon4 {
+	color: red;
+	display: inline-block;
+	margin-left: 10px;
+}
+.enter6 {
+	margin-top: 40px;
+	margin-left: 87px;
+}
+.enter6 span {
+	color:#999999;
+}
+.enter6 a {
+	color: #0188cc;
+} 
+.input_info .enter7 {
+	width: 140px;
+	height: 36px;
+	background-color: #0188cc;
+	color: #fff;
+	text-align: center;
+    line-height: 35px;
+    margin-left: 87px;
+    margin-top: 29px;
+    cursor: pointer;
+}
+.input_info .enter7  a {
+	color: #fff;
+    text-decoration: none;
+}
+.yzm .code1 {
+	display: inline-block;
+}
+.yzm .icon7{
+	display: inline-block;
+}
+.yzm .icon7 img {
+	margin-top: -11px;
+    float: left;
+}
+.yzm .icon7 a {
+	text-decoration:none;
+	color: #0188cc;
+	margin-left: 10px;
+}
+/*分隔线*/
+.container .divider {
+	width: 1px;
+	height:470px;
+	margin-top: 48px;
+	float: left;
+	border-left: 1px solid #dedede;
+}
+/*已有帐号*/
+.container .already {
+	width: 327px;
+	height: 165px;
+	margin-top: 60px;
+	margin-left: 50px;
+	display: inline-block;
+}
+.already .icon6 {
+	width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 8px solid #0188cc;
+    border-bottom: 8px solid transparent;
+	float: left;
+}
+.already .title span {
+	margin-left: 5px;
+}
+.already hr {
+	width: 300px;
+}
+.already .ard1 {
+	width: 140px;
+	height: 36px;
+	margin-top: 26px;
+	background-color: #f1881a;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height:36px;
+	cursor: pointer;
+}
+.already .ard2 {
+	width: 140px;
+	height: 36px;
+	margin-left: 20px;
+	margin-top: 26px;
+	background-color: #0188cc;
+	color: #fff;
+	float: left;
+	text-align: center;
+	line-height:36px;
+	cursor: pointer;
+}
+.already .ard2 a,
+.already .ard1 a {
+	color: #fff;
+	text-decoration: none;
+}
+.input_info img {
+	float: left;
+}
